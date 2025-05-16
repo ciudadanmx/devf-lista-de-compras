@@ -51,7 +51,7 @@ npm start
 
 Abre http://localhost:3000 en tu navegador para usar la app.
 
-📝 Estructura del proyecto
+## 📝 Estructura del proyecto
 
 devf-lista-de-compras/
 ├── public/
@@ -61,10 +61,11 @@ devf-lista-de-compras/
 │   └── index.js     # Entrada principal React
 ├── package.json
 └── README.md
-🙌 Créditos
+
+## 🙌 Créditos
 Proyecto desarrollado para DevF - Master en Programación Frontend por Abraham Urbina Ziat.
 
-📬 Contacto
+## 📬 Contacto
 Puedes escribirme a:
 📧 ciudadanmx@gmail.com
 
