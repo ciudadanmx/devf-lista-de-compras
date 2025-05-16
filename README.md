@@ -1,6 +1,6 @@
 # 🛒 Lista de Compras Interactiva - React
 
-![React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+##### ![React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
 
 ## 🚀 Proyecto React Lista de Compras - Escuela DevF - Master en Programación Frontend
 
