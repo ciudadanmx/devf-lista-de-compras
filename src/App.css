@@ -1,24 +1,91 @@
+/* fondo general */
 .App {
   text-align: center;
   padding: 2rem;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  min-height: 100vh;
 }
 
+/* título principal */
+h1 {
+  color: #d3871d;
+  margin-bottom: 1rem;
+}
+
+/* input y botón de agregar */
 input {
   padding: 0.5rem;
+  width: 250px;
+  font-size: 1rem;
   margin-right: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
 }
 
 button {
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  margin: 0.2rem;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
+/* botón de agregar */
+button:first-of-type {
+  background-color: #4a90e2;
+  color: white;
+}
+
+button:first-of-type:hover {
+  background-color: #357ABD;
+}
+
+/* lista de productos */
 ul {
   list-style: none;
   padding: 0;
+  margin-top: 2rem;
 }
 
 li {
-  margin: 0.5rem 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 0.5rem auto;
+  padding: 0.8rem;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 8px;
+  border-color: rgba(235, 209, 97, 0.815);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* nombre del producto */
+li span {
+  flex: 1;
+}
+
+/* botón comprado */
+li button:nth-of-type(1) {
+  background-color: #9dd67c;
+  color: white;
+}
+
+li button:nth-of-type(1):hover {
+  background-color: #527c3c;
+}
+
+/* botón eliminar */
+li button:nth-of-type(2) {
+  background-color: #d66965;
+  color: white;
+}
+
+li button:nth-of-type(2):hover {
+  background-color: #c9302c;
 }
