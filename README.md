@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🛒 Lista de Compras Interactiva - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
 
-## Available Scripts
+## 🚀 Proyecto React Lista de Compras - Escuela DevF - Master en Programación Frontend
 
-In the project directory, you can run:
+**Nombre del estudiante:** Abraham Urbina Ziat  
+**Correo:** ciudadanmx@gmail.com
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📋 Descripción
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Esta aplicación es una **Lista de Compras Interactiva** desarrollada en React usando Hooks (`useState`, `useEffect`) para manejar el estado y persistencia.  
+Permite agregar productos, marcarlos como comprados, eliminarlos y guarda la lista automáticamente en el navegador usando **localStorage** para que no se pierda al recargar la página.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Funcionalidades
 
-### `npm run build`
+- Agregar productos a la lista con validación para evitar duplicados.  
+- Marcar productos como "comprados" y desmarcarlos (se muestran tachados).  
+- Eliminar productos de la lista.  
+- Persistencia automática con `localStorage`.  
+- Interfaz amigable, clara y responsiva.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Tecnologías usadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React (Hooks: `useState`, `useEffect`)  
+- CSS para estilos sencillos y modernos  
+- LocalStorage para persistencia del estado  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Instalación y uso
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clona el repositorio  
+   git clone https://github.com/ciudadanmx/devf-lista-de-compras.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Entra al directorio del proyecto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd devf-lista-de-compras
 
-## Learn More
+Instala las dependencias
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Ejecuta la aplicación
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Abre http://localhost:3000 en tu navegador para usar la app.
 
-### Code Splitting
+📝 Estructura del proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+devf-lista-de-compras/
+├── public/
+├── src/
+│   ├── App.js       # Componente principal con la lógica
+│   ├── App.css      # Estilos
+│   └── index.js     # Entrada principal React
+├── package.json
+└── README.md
+🙌 Créditos
+Proyecto desarrollado para DevF - Master en Programación Frontend por Abraham Urbina Ziat.
 
-### Analyzing the Bundle Size
+📬 Contacto
+Puedes escribirme a:
+📧 ciudadanmx@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por revisar mi proyecto! 🚀✨
